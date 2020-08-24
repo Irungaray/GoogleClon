@@ -31,7 +31,7 @@ header nav {
 }
 
 .nav--section-right a {
-    margin-right: 10px;
+    margin-right: 20px;
     color: #000000;
 }
 
@@ -135,5 +135,58 @@ main {
 
 .main--buttons button:hover {
     border: 1px solid #c6c6c6;
-    box-shadow: 0 1px 1px ;
+    box-shadow: 0 1px 1px;
+}
+
+.prefooter {
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    bottom: 50px;
+    font-size: 14px;
+    justify-self: left;
+    align-items: center;
+}
+
+.prefooter ul {
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+    justify-self: left;
+    margin: 20px;
+}
+
+footer {
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    font-size: 14px;
+}
+
+footer ul {
+    margin: 10px;
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+}
+
+.footer--left {
+    justify-self: left;
+}
+
+.footer--right {
+    justify-self: right;
+}
+
+footer ul li a {
+    margin: 10px;
+    color:#5f6368
 }
